@@ -1,0 +1,92 @@
+[
+{
+  "model": "webapp.guestbook",
+  "pk": 1,
+  "fields": {
+    "author": "John Doe",
+    "email": "john_doe@example.com",
+    "text": "What would I do without your smart mouth\r\nDrawing me in, and you kicking me out\r\nGot my head spinning, no kidding, I can't pin you down\r\nWhat's going on in that beautiful mind\r\nI'm on your magical mystery ride\r\nAnd I'm so dizzy, don't know what hit me, but I'll be alright",
+    "created_at": "2019-09-21T06:54:27.510Z",
+    "updated_at": "2019-09-21T06:54:27.510Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 2,
+  "fields": {
+    "author": "John Legend",
+    "email": "john_legend@example.com",
+    "text": "My head's under water\r\nBut I'm breathing fine\r\nYou're crazy and I'm out of my mind",
+    "created_at": "2019-09-21T06:55:26.436Z",
+    "updated_at": "2019-09-21T06:55:26.436Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 3,
+  "fields": {
+    "author": "Craig David",
+    "email": "craig@example.com",
+    "text": "On my way to see my friends who lived a couple blocks away from me (oh)\r\nAs I walked through the subway\r\nIt must have been about quarter past three\r\nIn front of me, stood a beautiful honey with a beautiful body",
+    "created_at": "2019-09-21T07:44:01.685Z",
+    "updated_at": "2019-09-21T09:12:53.775Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 5,
+  "fields": {
+    "author": "Jay Sean",
+    "email": "sean@example.com",
+    "text": "So baby don't worry, you are my only\r\nYou won't be lonely, even if the sky is falling down\r\nYou'll be my only, no need to worry\r\nBaby are you down down down down down, down, down",
+    "created_at": "2019-09-21T08:27:46.454Z",
+    "updated_at": "2019-09-21T08:27:46.454Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 6,
+  "fields": {
+    "author": "Mirbek Atabekov",
+    "email": "mirba@example.com",
+    "text": "Men da bai bolgom\r\nChon bolgom\r\nChontokto akcha jyk tolgon\r\nJanymda dostorum kop ele\r\nKylyp oinogooon",
+    "created_at": "2019-09-21T08:29:48.200Z",
+    "updated_at": "2019-09-21T08:29:48.200Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 7,
+  "fields": {
+    "author": "Chyngyz Aitmatov",
+    "email": "chika@example.com",
+    "text": "What was the deal? A pretty girl aged twenty-four\r\nSo was she keen? She couldn't wait\r\nCinnamon queen? Let me update\r\nWhat did she say? She said she'd love to rendezvous\r\nShe asked me what we were gonna do",
+    "created_at": "2019-09-21T09:30:32.728Z",
+    "updated_at": "2019-09-21T09:31:31.592Z",
+    "status": "active"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$aalSBunQqscj$8Hlyg8598n6KimMKbjSIQt/PhUMU4O9NvVbv4DVnz7g=",
+    "last_login": "2019-09-21T05:42:24.692Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-21T05:32:31.638Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

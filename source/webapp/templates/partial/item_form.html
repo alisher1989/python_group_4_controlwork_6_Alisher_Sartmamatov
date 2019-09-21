@@ -6,21 +6,21 @@
 <p class="form-error">{{ error }}</p>
 {% endfor %}
 
-<p><label for="{{ form.author.id_for_label }}">Author</label></p>
-<p>{{ form.author }}</p>
+<p><label for="{{ form.author.id_for_label }}">Author *</label></p>
+<p>{{ form.author|add_class:"form-control" }}</p>
 {% for error in form.author.errors %}
     <p class="form-error">{{ errors }}</p>
 {% endfor %}
 
-<p><label for="{{ form.email.id_for_label }}">Email</label></p>
-<p>{{ form.email }}</p>
+<p><label for="{{ form.email.id_for_label }}">Email *</label></p>
+<p>{{ form.email|add_class:"form-control" }}</p>
 {% for error in form.email.errors %}
     <p class="form-error">{{ errors }}</p>
 {% endfor %}
 
 
-<p><label for="{{ form.text.id_for_label }}">Text</label></p>
-<p>{{ form.text }}</p>
+<p><label for="{{ form.text.id_for_label }}">Text *</label></p>
+<p>{{ form.text|add_class:"form-control" }}</p>
 {% for error in form.text.errors %}
     <p class="form-error">{{ errors }}</p>
 {% endfor %}

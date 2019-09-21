@@ -4,7 +4,7 @@ STATUS_CHOICES = (
     ('active', 'Active'),
     ('blocked', 'Blocked'),
 )
-class Article(models.Model):
+class Guestbook(models.Model):
     author = models.CharField(max_length=50, null=False, blank=False, verbose_name='author')
     email = models.EmailField(max_length=70, null=False, blank=False, verbose_name='email')
     text = models.TextField(max_length=3000, null=False, blank=False, verbose_name='text')

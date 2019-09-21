@@ -6,7 +6,7 @@ class GuestbookAdmin(admin.ModelAdmin):
     list_filter = ['author']
     list_display_links = ['pk', 'text']
     search_fields = ['author', 'text']
-    fields = ['author', 'text', 'created_at', 'updated_at']
+    fields = ['author', 'text', 'email', 'status', 'created_at', 'updated_at']
     readonly_fields = ['created_at', 'updated_at']
 
 

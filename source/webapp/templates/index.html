@@ -16,8 +16,11 @@
                         <h2 class="card-text card-link">
                             {{ item.author }}
                         </h2>
+                        <a href="{% url 'edit_item' item.pk %}"><i class="fas fa-edit"></i></a>
+                        <a href="{% url 'delete_item' item.pk %}"><i class="fas fa-trash"></i></a>
                         <p class="card-text">{{ item.get_category_display }}</p>
                         <p class="card-text text-right">{{ item.email }}</p>
+                        <p class="card-text text-right">{{ item.text }}</p>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ def item_add_view(request, *args, **kwargs):
     elif request.method == 'POST':
         form = GuestbookForm(data=request.POST)
         if form.is_valid():
-            item = Guestbook.objects.create(
+            Guestbook.objects.create(
                 author=form.cleaned_data['author'],
                 email=form.cleaned_data['email'],
                 text=form.cleaned_data['text'],
